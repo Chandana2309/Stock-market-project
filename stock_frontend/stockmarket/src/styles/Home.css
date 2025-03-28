@@ -1,0 +1,22 @@
+.home-container {
+    background-image: url("https://plus.unsplash.com/premium_photo-1681487769650-a0c3fbaed85a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D"); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    text-align: center;
+    color: white; /* Ensure text is visible */
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+  }

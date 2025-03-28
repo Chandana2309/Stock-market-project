@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 50px;
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00ff88;
+}
+
+.auth-buttons a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.auth-buttons .login-btn {
+  background: none;
+}
+
+.auth-buttons .register-btn {
+  background: #00ff88;
+  color: black;
+}
+
+.auth-buttons a:hover {
+  opacity: 0.8;
+}
